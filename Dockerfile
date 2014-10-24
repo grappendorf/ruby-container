@@ -1,4 +1,5 @@
 FROM ubuntu:14.04
+MAINTAINER Dirk Grappendorf "dirk@grappendorf.net"
 
 RUN apt-get update
 RUN apt-get install -y openssl libssl-dev libcurl4-openssl-dev \  
